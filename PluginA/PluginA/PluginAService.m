@@ -15,6 +15,10 @@ static void initializer(int argc, char** argv, char** envp)
 
 {
     NSLog(@"init plugin: %@", [PluginAService name]);
+    
+    
+    
+    
 }
 
 @implementation PluginAService

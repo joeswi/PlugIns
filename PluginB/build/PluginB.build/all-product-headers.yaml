@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/xxw/Documents/workspace/PlugIns/PluginB/build/Debug-iphonesimulator/PluginB.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PBPluginB.h",
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginB/PluginB/PBPluginB.h"
+        },
+        {
+          'type': 'file',
+          'name': "PluginB-Swift.h",
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginB/build/Debug-iphonesimulator/PluginB.framework/Headers/PluginB-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PluginB.h",
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginB/PluginB/PluginB.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/xxw/Documents/workspace/PlugIns/PluginB/build/Debug-iphonesimulator/PluginB.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginB/build/PluginB.build/Debug-iphonesimulator/PluginB.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

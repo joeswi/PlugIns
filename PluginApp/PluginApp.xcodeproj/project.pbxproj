@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AD24E6811E4DC05D00489B55 /* PluginA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24E6801E4DC05D00489B55 /* PluginA.framework */; };
 		AD24E6831E4DC0ED00489B55 /* PluginA.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD24E6821E4DC0ED00489B55 /* PluginA.bundle */; };
+		AD24E6BD1E4DD5E900489B55 /* PluginB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24E6BC1E4DD5E900489B55 /* PluginB.framework */; };
 		ADD4E44B1E4DA20F007FA14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4E44A1E4DA20F007FA14A /* main.m */; };
 		ADD4E44E1E4DA20F007FA14A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4E44D1E4DA20F007FA14A /* AppDelegate.m */; };
 		ADD4E4511E4DA20F007FA14A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4E4501E4DA20F007FA14A /* ViewController.m */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		AD24E6801E4DC05D00489B55 /* PluginA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginA.framework; sourceTree = "<group>"; };
 		AD24E6821E4DC0ED00489B55 /* PluginA.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PluginA.bundle; path = PluginA.framework/PluginA.bundle; sourceTree = "<group>"; };
+		AD24E6BC1E4DD5E900489B55 /* PluginB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginB.framework; sourceTree = "<group>"; };
 		ADD4E4461E4DA20F007FA14A /* PluginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD4E44A1E4DA20F007FA14A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ADD4E44C1E4DA20F007FA14A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD24E6BD1E4DD5E900489B55 /* PluginB.framework in Frameworks */,
 				AD24E6811E4DC05D00489B55 /* PluginA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,6 +91,7 @@
 		ADD4E46D1E4DA480007FA14A /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				AD24E6BC1E4DD5E900489B55 /* PluginB.framework */,
 				AD24E6821E4DC0ED00489B55 /* PluginA.bundle */,
 				AD24E6801E4DC05D00489B55 /* PluginA.framework */,
 			);

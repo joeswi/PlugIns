@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <PluginA/PluginA.h>
+#import <PluginB/PluginB.h>
 
 @interface ViewController ()
 
@@ -20,6 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"%@", [PluginAService name]);
     
+    PBPluginB *b = [[PBPluginB alloc] init];
     
     UIViewController *pluginAMain = [PluginAService mainViewController];
     [self.view addSubview:pluginAMain.view];
