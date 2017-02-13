@@ -9,14 +9,11 @@
 #import "PluginAService.h"
 #import "PAMainViewController.h"
 #import <PluginLoader/PluginLoader.h>
+#import "PluginAProtocal.h"
 
-__attribute__((constructor))
-static void initializer(int argc, char** argv, char** envp)
-{
-    PluginAService *pluginA = [PluginAService shareInstance];
-    NSLog(@"init plugin: %@", [pluginA name]);
-    [[PLPluginLoader defaultLoader] registerPlugin:pluginA];
-}
+@interface PluginAService () <PluginAServiceProtocal>
+
+@end
 
 @implementation PluginAService
 
@@ -34,14 +31,6 @@ static void initializer(int argc, char** argv, char** envp)
 - (NSString *)name
 {
     return @"PluginA";
-}
-
-- (NSBundle *)bundle
-{
-    NSString *mainBundlePath = [[NSBundle mainBundle] resourcePath];
-    NSString *frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:@"PluginA.bundle"];
-    NSBundle *frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
-    return frameworkBundle;
 }
 
 - (UIViewController *)mainViewController

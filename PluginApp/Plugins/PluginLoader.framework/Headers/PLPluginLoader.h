@@ -40,3 +40,10 @@ FOUNDATION_EXPORT const unsigned char PluginLoaderVersionString[];
 - (void)registerPlugin:(id<PLPluginProtocal>)plugin;
 
 @end
+
+
+@interface PLPluginBundle : NSObject
+
++ (NSBundle *)pluginBundle:(NSString *)name;
+
+@end

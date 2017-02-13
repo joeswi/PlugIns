@@ -75,3 +75,19 @@
 }
 
 @end
+
+@implementation PLPluginBundle
+
++ (NSBundle *)pluginBundle:(NSString *)name
+{
+    if ([name length] > 0)
+    {
+        NSString *mainBundlePath = [[NSBundle mainBundle] resourcePath];
+        NSString *frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.bundle", name]];
+        NSBundle *frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
+        return frameworkBundle;
+    }
+    return nil;
+}
+
+@end

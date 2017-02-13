@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <PluginLoader/PluginLoader.h>
 #import <PluginCImp/PluginCImp.h>
+#import <PluginA/PluginA.h>
 
 @interface AppDelegate ()
 
@@ -21,12 +22,7 @@
     // Override point for customization after application launch.
     NSLog(@"---------- did finish launch ----------");
     
-    
-    
-    // [PLPluginLoader defaultLoader] registerPlugin:
-    // PluginCImp *a = [[PluginCImp alloc] init];
-    
-    [[PLPluginLoader defaultLoader] loadPlugins:@[PluginCImp.class]];
+    [[PLPluginLoader defaultLoader] loadPlugins:@[PluginCImp.class, PluginAService.class]];
     
     return YES;
 }

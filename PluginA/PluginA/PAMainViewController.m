@@ -8,6 +8,7 @@
 
 #import "PAMainViewController.h"
 #import "PluginAService.h"
+#import <PluginLoader/PluginLoader.h>
 
 @interface PAMainViewController ()
 
@@ -26,7 +27,7 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     [imageView setBackgroundColor:[UIColor redColor]];
     imageView.image = [UIImage imageNamed:@"Adventure"
-                                 inBundle:[[PluginAService shareInstance] bundle]
+                                 inBundle:[PLPluginBundle pluginBundle:@"PluginA"]
             compatibleWithTraitCollection:nil];
     [self.view addSubview:imageView];
 }

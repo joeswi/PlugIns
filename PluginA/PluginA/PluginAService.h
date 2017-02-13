@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <PluginLoader/PluginLoader.h>
-#import "PluginAProtocal.h"
 
-@interface PluginAService : NSObject <PluginAServiceProtocal>
-
-+ (instancetype)shareInstance;
-
+@interface PluginAService : NSObject 
 @end
