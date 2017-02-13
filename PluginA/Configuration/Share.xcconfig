@@ -6,4 +6,4 @@
 //  Copyright © 2017年 xxw. All rights reserved.
 //
 
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)"  "${PROJECT_DIR}/../PluginAProtocol/build/$(CONFIGURATION)-$(PLATFORM_NAME)"

@@ -9,9 +9,9 @@
 #import "PluginAService.h"
 #import "PAMainViewController.h"
 #import <PluginLoader/PluginLoader.h>
-#import "PluginAProtocal.h"
+#import <PluginAProtocol/PluginAProtocol.h>
 
-@interface PluginAService () <PluginAServiceProtocal>
+@interface PluginAService () <PluginAProtocol>
 
 @end
 

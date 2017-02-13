@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/xxw/Documents/workspace/PlugIns/PluginAProtocol/build/Debug-iphonesimulator/PluginAProtocol.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PluginAProtocol-Swift.h",
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginAProtocol/build/Debug-iphonesimulator/PluginAProtocol.framework/Headers/PluginAProtocol-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PluginAProtocol.h",
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginAProtocol/PluginAProtocol/PluginAProtocol.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/xxw/Documents/workspace/PlugIns/PluginAProtocol/build/Debug-iphonesimulator/PluginAProtocol.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginAProtocol/build/PluginAProtocol.build/Debug-iphonesimulator/PluginAProtocol.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A040257B1E4E0F9800390B2C /* PluginAProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = A040257A1E4E0F9800390B2C /* PluginAProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD24E6861E4DC1B600489B55 /* PAMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD24E6841E4DC1B600489B55 /* PAMainViewController.h */; };
 		AD24E6871E4DC1B600489B55 /* PAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD24E6851E4DC1B600489B55 /* PAMainViewController.m */; };
 		ADD4E4371E4DA1EB007FA14A /* PluginA.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD4E4351E4DA1EB007FA14A /* PluginA.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A040257A1E4E0F9800390B2C /* PluginAProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginAProtocal.h; sourceTree = "<group>"; };
 		A0A86C861E4E04E000F75C32 /* PluginLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PluginLoader.framework; path = "../PluginLoader/build/Debug-iphonesimulator/PluginLoader.framework"; sourceTree = "<group>"; };
 		A0A86C8A1E4E05FF00F75C32 /* Share.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Share.xcconfig; sourceTree = "<group>"; };
 		AD24E6841E4DC1B600489B55 /* PAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAMainViewController.h; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				ADD4E4351E4DA1EB007FA14A /* PluginA.h */,
-				A040257A1E4E0F9800390B2C /* PluginAProtocal.h */,
 				ADD4E4361E4DA1EB007FA14A /* Info.plist */,
 				ADD4E4691E4DA378007FA14A /* PluginAService.h */,
 				ADD4E46A1E4DA378007FA14A /* PluginAService.m */,
@@ -108,7 +105,6 @@
 				ADD4E4371E4DA1EB007FA14A /* PluginA.h in Headers */,
 				ADD4E46B1E4DA378007FA14A /* PluginAService.h in Headers */,
 				AD24E6861E4DC1B600489B55 /* PAMainViewController.h in Headers */,
-				A040257B1E4E0F9800390B2C /* PluginAProtocal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

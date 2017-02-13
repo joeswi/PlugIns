@@ -1,0 +1,6 @@
+framework module PluginAProtocol {
+  umbrella header "PluginAProtocol.h"
+
+  export *
+  module * { export * }
+}

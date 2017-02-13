@@ -20,7 +20,7 @@ FOUNDATION_EXPORT const unsigned char PluginLoaderVersionString[];
 
 @end
 
-@protocol PLPluginProtocal <PLPluginLoadable>
+@protocol PLPluginProtocol <PLPluginLoadable>
 
 - (NSString *)name;
 
@@ -35,9 +35,9 @@ FOUNDATION_EXPORT const unsigned char PluginLoaderVersionString[];
 
 - (void)loadPlugins:(NSArray *)plugins;
 
-- (id<PLPluginProtocal>)findPlugin:(NSString *)name;
+- (id<PLPluginProtocol>)findPlugin:(NSString *)name;
 
-- (void)registerPlugin:(id<PLPluginProtocal>)plugin;
+- (void)registerPlugin:(id<PLPluginProtocol>)plugin;
 
 @end
 

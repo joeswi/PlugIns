@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <PluginA/PluginA.h>
+#import <PluginAProtocol/PluginAProtocol.h>
 #import <PluginB/PluginB.h>
 #import <PluginLoader/PluginLoader.h>
 
@@ -27,15 +27,15 @@
     PBPluginB *b = [[PBPluginB alloc] init];
     
     // PluginAService *s = [[PluginAService alloc] init]; //必须要使用，才能加载
-    id<PLPluginProtocal> loader = [[PLPluginLoader defaultLoader] findPlugin:@"PluginA"];
-    if ([loader conformsToProtocol:@protocol(PluginAServiceProtocal)])
+    id<PLPluginProtocol> loader = [[PLPluginLoader defaultLoader] findPlugin:@"PluginA"];
+    if ([loader conformsToProtocol:@protocol(PluginAProtocol)])
     {
-        id<PluginAServiceProtocal> pluginA = (id<PluginAServiceProtocal>)loader;
+        id<PluginAProtocol> pluginA = (id<PluginAProtocol>)loader;
         UIViewController *vc = [pluginA mainViewController];
         [self.view addSubview:vc.view];
     }
     
-    id<PLPluginProtocal> pluginC = [[PLPluginLoader defaultLoader] findPlugin:@"PluginC"];
+    id<PLPluginProtocol> pluginC = [[PLPluginLoader defaultLoader] findPlugin:@"PluginC"];
     NSLog(@"%p", pluginC);
     if ([pluginC conformsToProtocol:@protocol(PCPluginProtocal)])
     {

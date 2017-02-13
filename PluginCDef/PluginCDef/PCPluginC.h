@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <PluginLoader/PluginLoader.h>
 
-@protocol PCPluginProtocal <PLPluginProtocal>
+@protocol PCPluginProtocal <PLPluginProtocol>
 
 - (UILabel *)label;
 

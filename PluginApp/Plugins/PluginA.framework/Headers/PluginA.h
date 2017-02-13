@@ -16,5 +16,4 @@ FOUNDATION_EXPORT const unsigned char PluginAVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PluginA/PublicHeader.h>
 
-#import <PluginA/PluginAProtocal.h>
 #import <PluginA/PluginAService.h>

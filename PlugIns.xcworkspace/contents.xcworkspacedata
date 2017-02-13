@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PluginAProtocol/PluginAProtocol.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PluginA/PluginA.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PluginCDef/PluginCDef.xcodeproj">
    </FileRef>
    <FileRef
@@ -15,8 +21,5 @@
    </FileRef>
    <FileRef
       location = "group:PluginApp/PluginApp.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PluginA/PluginA.xcodeproj">
    </FileRef>
 </Workspace>

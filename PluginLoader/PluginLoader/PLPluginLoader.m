@@ -41,16 +41,16 @@
     for (Class pluginClass in plugins)
     {
         id plugin = [[pluginClass alloc] init];
-        if ([plugin conformsToProtocol:@protocol(PLPluginProtocal)] && [plugin conformsToProtocol:@protocol(PLPluginLoadable)])
+        if ([plugin conformsToProtocol:@protocol(PLPluginProtocol)] && [plugin conformsToProtocol:@protocol(PLPluginLoadable)])
         {
-            id<PLPluginProtocal> pluginImp = (id<PLPluginProtocal>) plugin;
+            id<PLPluginProtocol> pluginImp = (id<PLPluginProtocol>) plugin;
             [self registerPlugin:pluginImp];
             NSLog(@"load plugin: '%@'.", [pluginImp name]);
         }
     }
 }
 
-- (id<PLPluginProtocal>)findPlugin:(NSString *)name
+- (id<PLPluginProtocol>)findPlugin:(NSString *)name
 {
     if (name)
     {
@@ -63,7 +63,7 @@
 }
 
 
-- (void)registerPlugin:(id<PLPluginProtocal>)plugin
+- (void)registerPlugin:(id<PLPluginProtocol>)plugin
 {
     if (plugin)
     {
