@@ -22,6 +22,8 @@
     
     PBPluginB *b = [[PBPluginB alloc] init];
     
+    // PluginAService *s = [[PluginAService alloc] init]; //必须要使用，才能加载
+    
     id<PLPluginProtocal> loader = [[PLPluginLoader defaultLoader] findPlugin:@"PluginA"];
     if ([loader conformsToProtocol:@protocol(PluginAServiceProtocal)])
     {

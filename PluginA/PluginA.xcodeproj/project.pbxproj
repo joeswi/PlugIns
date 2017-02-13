@@ -12,7 +12,7 @@
 		AD24E6871E4DC1B600489B55 /* PAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD24E6851E4DC1B600489B55 /* PAMainViewController.m */; };
 		ADD4E4371E4DA1EB007FA14A /* PluginA.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD4E4351E4DA1EB007FA14A /* PluginA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADD4E4681E4DA279007FA14A /* PluginA.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADD4E4671E4DA279007FA14A /* PluginA.bundle */; };
-		ADD4E46B1E4DA378007FA14A /* PluginAService.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD4E4691E4DA378007FA14A /* PluginAService.h */; };
+		ADD4E46B1E4DA378007FA14A /* PluginAService.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD4E4691E4DA378007FA14A /* PluginAService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADD4E46C1E4DA378007FA14A /* PluginAService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4E46A1E4DA378007FA14A /* PluginAService.m */; };
 /* End PBXBuildFile section */
 
@@ -294,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -312,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

@@ -38,6 +38,13 @@
 
 - (id<PLPluginProtocal>)findPlugin:(NSString *)name
 {
+    if (name)
+    {
+        @synchronized (self)
+        {
+            return self.plugins[name];
+        }
+    }
     return nil;
 }
 

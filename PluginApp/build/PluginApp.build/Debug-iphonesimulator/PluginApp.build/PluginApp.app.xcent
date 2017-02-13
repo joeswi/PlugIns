@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>7DMYB4LH9U.com.xxw.plugins.PluginApp</string>
+	<string>AXNP3CN37X.com.xxw.plugins.PluginApp</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>7DMYB4LH9U.com.xxw.plugins.PluginApp</string>
+		<string>AXNP3CN37X.com.xxw.plugins.PluginApp</string>
 	</array>
 </dict>
 </plist>

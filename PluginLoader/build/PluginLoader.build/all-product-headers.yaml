@@ -4,33 +4,33 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/joeswi/Documents/Workspace/PlugIns/PluginLoader/build/Debug-iphonesimulator/PluginLoader.framework/Headers",
+      'name': "/Users/xxw/Documents/workspace/PlugIns/PluginLoader/build/Debug-iphonesimulator/PluginLoader.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "PLPluginLoader.h",
-          'external-contents': "/Users/joeswi/Documents/Workspace/PlugIns/PluginLoader/PluginLoader/PLPluginLoader.h"
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginLoader/PluginLoader/PLPluginLoader.h"
         },
         {
           'type': 'file',
           'name': "PluginLoader-Swift.h",
-          'external-contents': "/Users/joeswi/Documents/Workspace/PlugIns/PluginLoader/build/Debug-iphonesimulator/PluginLoader.framework/Headers/PluginLoader-Swift.h"
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginLoader/build/Debug-iphonesimulator/PluginLoader.framework/Headers/PluginLoader-Swift.h"
         },
         {
           'type': 'file',
           'name': "PluginLoader.h",
-          'external-contents': "/Users/joeswi/Documents/Workspace/PlugIns/PluginLoader/PluginLoader/PluginLoader.h"
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginLoader/PluginLoader/PluginLoader.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/joeswi/Documents/Workspace/PlugIns/PluginLoader/build/Debug-iphonesimulator/PluginLoader.framework/Modules",
+      'name': "/Users/xxw/Documents/workspace/PlugIns/PluginLoader/build/Debug-iphonesimulator/PluginLoader.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/joeswi/Documents/Workspace/PlugIns/PluginLoader/build/PluginLoader.build/Debug-iphonesimulator/PluginLoader.build/module.modulemap"
+          'external-contents': "/Users/xxw/Documents/workspace/PlugIns/PluginLoader/build/PluginLoader.build/Debug-iphonesimulator/PluginLoader.build/module.modulemap"
         }
       ]
     }
