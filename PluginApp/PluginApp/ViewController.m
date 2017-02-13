@@ -38,9 +38,9 @@
     
     id<PLPluginProtocal> pluginC = [[PLPluginLoader defaultLoader] findPlugin:@"PluginC"];
     NSLog(@"%p", pluginC);
-    if ([pluginC conformsToProtocol:@protocol(PCPluginC)])
+    if ([pluginC conformsToProtocol:@protocol(PCPluginCProtocal)])
     {
-        id<PCPluginC> pluginCC = (id<PCPluginC>)pluginC;
+        id<PCPluginProtocal> pluginCC = (id<PCPluginProtocal>)pluginC;
         UILabel *label = [pluginCC label];
         [self.view addSubview:label];
     }

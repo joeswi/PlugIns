@@ -8,14 +8,13 @@
 
 #import "PluginCImp.h"
 
-@interface PluginCImp () <PCPluginC>
+@interface PluginCImp () <PCPluginProtocal>
 
 @end
 
-
 @implementation PluginCImp
 
-- (NSString *)name
+- (NSString *)name 
 {
     return @"PluginC";
 }
