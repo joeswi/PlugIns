@@ -9,7 +9,7 @@
 #import "PluginCImp.h"
 #import <PluginCDef/PluginCDef.h>
 
-@interface PluginCImp : NSObject <PLPluginProtocal>
+@interface PluginCImp : NSObject <PCPluginC>
 
 @end
 
