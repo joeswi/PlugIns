@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <PluginLoader/PluginLoader.h>
+#import <PluginCImp/PluginCImp.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +20,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSLog(@"---------- did finish launch ----------");
+    
+    
+    
+    // [PLPluginLoader defaultLoader] registerPlugin:
+    // PluginCImp *a = [[PluginCImp alloc] init];
+    
+    [[PLPluginLoader defaultLoader] loadPlugins:@[PluginCImp.class]];
     
     return YES;
 }

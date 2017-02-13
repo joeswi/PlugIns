@@ -36,6 +36,20 @@
     return self;
 }
 
+- (void)loadPlugins:(NSArray *)plugins
+{
+    for (Class pluginClass in plugins)
+    {
+        id plugin = [[pluginClass alloc] init];
+        if ([plugin conformsToProtocol:@protocol(PLPluginProtocal)] && [plugin conformsToProtocol:@protocol(PLPluginLoadable)])
+        {
+            id<PLPluginProtocal> pluginImp = (id<PLPluginProtocal>) plugin;
+            [self registerPlugin:pluginImp];
+            NSLog(@"load plugin: '%@'.", [pluginImp name]);
+        }
+    }
+}
+
 - (id<PLPluginProtocal>)findPlugin:(NSString *)name
 {
     if (name)

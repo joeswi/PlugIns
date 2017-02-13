@@ -7,17 +7,11 @@
 //
 
 #import "PluginCImp.h"
-#import <PluginCDef/PluginCDef.h>
 
+@interface PluginCImp () <PCPluginC>
 
+@end
 
-__attribute__((constructor))
-static void initializer(int argc, char** argv, char** envp)
-{
-    PluginCImp *pluginC = [[PluginCImp alloc] init];
-    NSLog(@"init plugin: %@", [pluginC name]);
-    [[PLPluginLoader defaultLoader] registerPlugin:pluginC];
-}
 
 @implementation PluginCImp
 

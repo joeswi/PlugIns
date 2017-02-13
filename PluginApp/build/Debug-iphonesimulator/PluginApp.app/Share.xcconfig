@@ -9,4 +9,4 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)"
 
 
-OTHER_LDFLAGS = $(inherited) -all_load ${PROJECT_DIR}/Plugins/PluginA.framework/PluginA
+//OTHER_LDFLAGS = $(inherited) -all_load ${PROJECT_DIR}/Plugins/PluginA.framework/PluginA

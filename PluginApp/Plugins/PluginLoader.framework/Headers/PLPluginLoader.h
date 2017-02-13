@@ -16,7 +16,11 @@ FOUNDATION_EXPORT const unsigned char PluginLoaderVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PluginLoader/PublicHeader.h>
 
-@protocol PLPluginProtocal <NSObject>
+@protocol PLPluginLoadable <NSObject>
+
+@end
+
+@protocol PLPluginProtocal <PLPluginLoadable>
 
 - (NSString *)name;
 
@@ -28,6 +32,8 @@ FOUNDATION_EXPORT const unsigned char PluginLoaderVersionString[];
 @interface PLPluginLoader : NSObject
 
 + (instancetype)defaultLoader;
+
+- (void)loadPlugins:(NSArray *)plugins;
 
 - (id<PLPluginProtocal>)findPlugin:(NSString *)name;
 

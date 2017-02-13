@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		UQ5cAiLWEy44IBcCUBT1onb77vg=
-		</data>
 		<key>Headers/PCPluginC.h</key>
 		<data>
 		ghBc9msITwJ4yRoRBGZghF2I1Fk=
@@ -18,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yUoZ8kbcbrL1UU9aoA+JU9F2coY=
+		BMINlkfafBh1/HdMkcm0S9GIooI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
