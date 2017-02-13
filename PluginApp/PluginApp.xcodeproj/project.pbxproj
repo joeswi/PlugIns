@@ -12,7 +12,6 @@
 		AD24E6831E4DC0ED00489B55 /* PluginA.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD24E6821E4DC0ED00489B55 /* PluginA.bundle */; };
 		AD24E6BD1E4DD5E900489B55 /* PluginB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24E6BC1E4DD5E900489B55 /* PluginB.framework */; };
 		AD24E6F61E515E8100489B55 /* PluginCDef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24E6F51E515E8100489B55 /* PluginCDef.framework */; };
-		AD24E6F81E515E8A00489B55 /* PluginCImp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24E6F71E515E8A00489B55 /* PluginCImp.framework */; };
 		AD24E6FB1E515EFD00489B55 /* Share.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD24E6FA1E515EFD00489B55 /* Share.xcconfig */; };
 		ADD4E44B1E4DA20F007FA14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4E44A1E4DA20F007FA14A /* main.m */; };
 		ADD4E44E1E4DA20F007FA14A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4E44D1E4DA20F007FA14A /* AppDelegate.m */; };
@@ -28,7 +27,6 @@
 		AD24E6821E4DC0ED00489B55 /* PluginA.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PluginA.bundle; path = PluginA.framework/PluginA.bundle; sourceTree = "<group>"; };
 		AD24E6BC1E4DD5E900489B55 /* PluginB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginB.framework; sourceTree = "<group>"; };
 		AD24E6F51E515E8100489B55 /* PluginCDef.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginCDef.framework; sourceTree = "<group>"; };
-		AD24E6F71E515E8A00489B55 /* PluginCImp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginCImp.framework; sourceTree = "<group>"; };
 		AD24E6FA1E515EFD00489B55 /* Share.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Share.xcconfig; sourceTree = "<group>"; };
 		ADD4E4461E4DA20F007FA14A /* PluginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD4E44A1E4DA20F007FA14A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,7 +46,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A04025791E4E0C8B00390B2C /* PluginLoader.framework in Frameworks */,
-				AD24E6F81E515E8A00489B55 /* PluginCImp.framework in Frameworks */,
 				AD24E6F61E515E8100489B55 /* PluginCDef.framework in Frameworks */,
 				AD24E6BD1E4DD5E900489B55 /* PluginB.framework in Frameworks */,
 				AD24E6811E4DC05D00489B55 /* PluginA.framework in Frameworks */,
@@ -111,7 +108,6 @@
 		ADD4E46D1E4DA480007FA14A /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				AD24E6F71E515E8A00489B55 /* PluginCImp.framework */,
 				AD24E6F51E515E8100489B55 /* PluginCDef.framework */,
 				A04025781E4E0C8B00390B2C /* PluginLoader.framework */,
 				AD24E6BC1E4DD5E900489B55 /* PluginB.framework */,

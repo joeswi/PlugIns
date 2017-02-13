@@ -9,9 +9,7 @@
 #import "PluginCImp.h"
 #import <PluginCDef/PluginCDef.h>
 
-@interface PluginCImp : NSObject <PCPluginC>
 
-@end
 
 __attribute__((constructor))
 static void initializer(int argc, char** argv, char** envp)

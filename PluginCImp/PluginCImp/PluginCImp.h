@@ -17,3 +17,6 @@ FOUNDATION_EXPORT const unsigned char PluginCImpVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <PluginCImp/PublicHeader.h>
 
 
+@interface PluginCImp : NSObject <PCPluginC>
+
+@end
