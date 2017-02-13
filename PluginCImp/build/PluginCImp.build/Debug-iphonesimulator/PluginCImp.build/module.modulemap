@@ -1,0 +1,6 @@
+framework module PluginCImp {
+  umbrella header "PluginCImp.h"
+
+  export *
+  module * { export * }
+}

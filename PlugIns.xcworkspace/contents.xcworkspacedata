@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PluginCDef/PluginCDef.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PluginCImp/PluginCImp.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PluginB/PluginB.xcodeproj">
    </FileRef>
    <FileRef
