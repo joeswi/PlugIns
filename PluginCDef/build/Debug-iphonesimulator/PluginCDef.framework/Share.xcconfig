@@ -1,9 +1,0 @@
-//
-//  Share.xcconfig
-//  PluginA
-//
-//  Created by joeswi on 17/2/10.
-//  Copyright © 2017年 xxw. All rights reserved.
-//
-
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)"

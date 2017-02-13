@@ -1,6 +1,0 @@
-framework module PluginA {
-  umbrella header "PluginA.h"
-
-  export *
-  module * { export * }
-}

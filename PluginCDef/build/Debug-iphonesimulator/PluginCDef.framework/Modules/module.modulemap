@@ -1,6 +1,0 @@
-framework module PluginCDef {
-  umbrella header "PluginCDef.h"
-
-  export *
-  module * { export * }
-}
