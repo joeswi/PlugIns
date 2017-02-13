@@ -1,0 +1,17 @@
+
+PluginA/build
+PluginApp/build
+PluginB/build
+PluginCDef/build
+PluginCImp/build
+PluginLoader/build
+
+.DS_Store
+
+.DS_Store
+
+PluginLoader/.DS_Store
+
+PlugIns.xcworkspace/xcuserdata/xxw.xcuserdatad/UserInterfaceState.xcuserstate
+
+*.xcuserstate
