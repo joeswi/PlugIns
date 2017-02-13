@@ -1,0 +1,6 @@
+framework module PluginLoader {
+  umbrella header "PluginLoader.h"
+
+  export *
+  module * { export * }
+}

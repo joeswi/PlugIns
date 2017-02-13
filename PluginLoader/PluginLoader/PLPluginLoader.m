@@ -36,15 +36,21 @@
     return self;
 }
 
-- (id<PluginProtocal>)findPlugin:(NSString *)name
+- (id<PLPluginProtocal>)findPlugin:(NSString *)name
 {
     return nil;
 }
 
 
-- (void)registerPluginImplement:(id<PluginProtocal>)PluginImplement
+- (void)registerPlugin:(id<PLPluginProtocal>)plugin
 {
-    
+    if (plugin)
+    {
+        @synchronized (self)
+        {
+            [self.plugins setValue:plugin forKey:[plugin name]];
+        }
+    }
 }
 
 @end

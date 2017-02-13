@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A04025791E4E0C8B00390B2C /* PluginLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04025781E4E0C8B00390B2C /* PluginLoader.framework */; };
 		AD24E6811E4DC05D00489B55 /* PluginA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24E6801E4DC05D00489B55 /* PluginA.framework */; };
 		AD24E6831E4DC0ED00489B55 /* PluginA.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD24E6821E4DC0ED00489B55 /* PluginA.bundle */; };
 		AD24E6BD1E4DD5E900489B55 /* PluginB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24E6BC1E4DD5E900489B55 /* PluginB.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A04025781E4E0C8B00390B2C /* PluginLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginLoader.framework; sourceTree = "<group>"; };
 		AD24E6801E4DC05D00489B55 /* PluginA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginA.framework; sourceTree = "<group>"; };
 		AD24E6821E4DC0ED00489B55 /* PluginA.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PluginA.bundle; path = PluginA.framework/PluginA.bundle; sourceTree = "<group>"; };
 		AD24E6BC1E4DD5E900489B55 /* PluginB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginB.framework; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04025791E4E0C8B00390B2C /* PluginLoader.framework in Frameworks */,
 				AD24E6BD1E4DD5E900489B55 /* PluginB.framework in Frameworks */,
 				AD24E6811E4DC05D00489B55 /* PluginA.framework in Frameworks */,
 			);
@@ -91,6 +94,7 @@
 		ADD4E46D1E4DA480007FA14A /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				A04025781E4E0C8B00390B2C /* PluginLoader.framework */,
 				AD24E6BC1E4DD5E900489B55 /* PluginB.framework */,
 				AD24E6821E4DC0ED00489B55 /* PluginA.bundle */,
 				AD24E6801E4DC05D00489B55 /* PluginA.framework */,
@@ -129,7 +133,7 @@
 				TargetAttributes = {
 					ADD4E4451E4DA20F007FA14A = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -238,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -279,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -290,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Plugins",
@@ -305,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Plugins",

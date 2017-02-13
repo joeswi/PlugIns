@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <PluginA/PluginA.h>
 #import <PluginB/PluginB.h>
+#import <PluginLoader/PluginLoader.h>
 
 @interface ViewController ()
 
@@ -18,13 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"%@", [PluginAService name]);
     
     PBPluginB *b = [[PBPluginB alloc] init];
     
-    UIViewController *pluginAMain = [PluginAService mainViewController];
-    [self.view addSubview:pluginAMain.view];
+    id<PLPluginProtocal> loader = [[PLPluginLoader defaultLoader] findPlugin:@"PluginA"];
+    if ([loader conformsToProtocol:@protocol(PluginAServiceProtocal)])
+    {
+        id<PluginAServiceProtocal> pluginA = (id<PluginAServiceProtocal>)loader;
+        UIViewController *vc = [pluginA mainViewController];
+        [self.view addSubview:vc.view];
+    }
 }
 
 

@@ -8,27 +8,35 @@
 
 #import "PluginAService.h"
 #import "PAMainViewController.h"
+#import <PluginLoader/PluginLoader.h>
 
 __attribute__((constructor))
-
 static void initializer(int argc, char** argv, char** envp)
-
 {
-    NSLog(@"init plugin: %@", [PluginAService name]);
-    
-    
-    
-    
+    PluginAService *pluginA = [PluginAService shareInstance];
+    NSLog(@"init plugin: %@", [pluginA name]);
+    [[PLPluginLoader defaultLoader] registerPlugin:pluginA];
 }
 
 @implementation PluginAService
 
-+ (NSString *)name
++ (instancetype)shareInstance
+{
+    static dispatch_once_t pred = 0;
+    __strong static id _sharedObject = nil;
+    dispatch_once(&pred, ^{
+        _sharedObject = [[self alloc] init];
+    });
+    return _sharedObject;
+}
+
+
+- (NSString *)name
 {
     return @"PluginA";
 }
 
-+ (NSBundle *)bundle
+- (NSBundle *)bundle
 {
     NSString *mainBundlePath = [[NSBundle mainBundle] resourcePath];
     NSString *frameworkBundlePath = [mainBundlePath stringByAppendingPathComponent:@"PluginA.bundle"];
@@ -36,7 +44,7 @@ static void initializer(int argc, char** argv, char** envp)
     return frameworkBundle;
 }
 
-+ (UIViewController *)mainViewController
+- (UIViewController *)mainViewController
 {
     PAMainViewController *main = [[PAMainViewController alloc] init];
     return main;

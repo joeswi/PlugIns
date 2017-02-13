@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A040257B1E4E0F9800390B2C /* PluginAProtocal.h in Headers */ = {isa = PBXBuildFile; fileRef = A040257A1E4E0F9800390B2C /* PluginAProtocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD24E6861E4DC1B600489B55 /* PAMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD24E6841E4DC1B600489B55 /* PAMainViewController.h */; };
 		AD24E6871E4DC1B600489B55 /* PAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD24E6851E4DC1B600489B55 /* PAMainViewController.m */; };
 		ADD4E4371E4DA1EB007FA14A /* PluginA.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD4E4351E4DA1EB007FA14A /* PluginA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADD4E4681E4DA279007FA14A /* PluginA.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ADD4E4671E4DA279007FA14A /* PluginA.bundle */; };
-		ADD4E46B1E4DA378007FA14A /* PluginAService.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD4E4691E4DA378007FA14A /* PluginAService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD4E46B1E4DA378007FA14A /* PluginAService.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD4E4691E4DA378007FA14A /* PluginAService.h */; };
 		ADD4E46C1E4DA378007FA14A /* PluginAService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD4E46A1E4DA378007FA14A /* PluginAService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A040257A1E4E0F9800390B2C /* PluginAProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginAProtocal.h; sourceTree = "<group>"; };
+		A0A86C861E4E04E000F75C32 /* PluginLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PluginLoader.framework; path = "../PluginLoader/build/Debug-iphonesimulator/PluginLoader.framework"; sourceTree = "<group>"; };
+		A0A86C8A1E4E05FF00F75C32 /* Share.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Share.xcconfig; sourceTree = "<group>"; };
 		AD24E6841E4DC1B600489B55 /* PAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAMainViewController.h; sourceTree = "<group>"; };
 		AD24E6851E4DC1B600489B55 /* PAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAMainViewController.m; sourceTree = "<group>"; };
 		ADD4E4321E4DA1EB007FA14A /* PluginA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PluginA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,12 +41,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0A86C851E4E04E000F75C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A86C861E4E04E000F75C32 /* PluginLoader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A86C891E4E05E500F75C32 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A0A86C8A1E4E05FF00F75C32 /* Share.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
 		ADD4E4281E4DA1EB007FA14A = {
 			isa = PBXGroup;
 			children = (
+				A0A86C891E4E05E500F75C32 /* Configuration */,
 				ADD4E4661E4DA279007FA14A /* Resources */,
 				ADD4E4341E4DA1EB007FA14A /* PluginA */,
 				ADD4E4331E4DA1EB007FA14A /* Products */,
+				A0A86C851E4E04E000F75C32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				ADD4E4351E4DA1EB007FA14A /* PluginA.h */,
+				A040257A1E4E0F9800390B2C /* PluginAProtocal.h */,
 				ADD4E4361E4DA1EB007FA14A /* Info.plist */,
 				ADD4E4691E4DA378007FA14A /* PluginAService.h */,
 				ADD4E46A1E4DA378007FA14A /* PluginAService.m */,
@@ -85,6 +108,7 @@
 				ADD4E4371E4DA1EB007FA14A /* PluginA.h in Headers */,
 				ADD4E46B1E4DA378007FA14A /* PluginAService.h in Headers */,
 				AD24E6861E4DC1B600489B55 /* PAMainViewController.h in Headers */,
+				A040257B1E4E0F9800390B2C /* PluginAProtocal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +192,7 @@
 /* Begin XCBuildConfiguration section */
 		ADD4E4381E4DA1EB007FA14A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A86C8A1E4E05FF00F75C32 /* Share.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -193,6 +218,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -207,7 +233,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -219,6 +245,7 @@
 		};
 		ADD4E4391E4DA1EB007FA14A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A86C8A1E4E05FF00F75C32 /* Share.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -244,6 +271,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -252,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

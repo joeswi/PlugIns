@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/PluginA.h</key>
 		<data>
-		KQLPjdDjdri5JByRXgWFu/FX8kI=
+		SHDDVGBnZhkubtg4ZmYwmRCrBdM=
 		</data>
-		<key>Headers/PluginAService.h</key>
+		<key>Headers/PluginAProtocal.h</key>
 		<data>
-		yCy9j/cklAav13KWnH8SpLhFELc=
+		Ww5mpCrDO1Z2En0SwJEfJFCxmcg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GEmYgFpI4pqwl+5DgkC06ZFrTaI=
+		7NxU5DBOtSIfUuU2f6WNnXquCA4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,22 +35,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KQLPjdDjdri5JByRXgWFu/FX8kI=
+			SHDDVGBnZhkubtg4ZmYwmRCrBdM=
 			</data>
 			<key>hash2</key>
 			<data>
-			bJnt/eymnMHoOoouIP14u4h45gbSoX4HDNvEKW/Pp98=
+			1LAJ5CAQlcXJgS8yRo2QF/pczXcKJmDoCurVKPEghW4=
 			</data>
 		</dict>
-		<key>Headers/PluginAService.h</key>
+		<key>Headers/PluginAProtocal.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yCy9j/cklAav13KWnH8SpLhFELc=
+			Ww5mpCrDO1Z2En0SwJEfJFCxmcg=
 			</data>
 			<key>hash2</key>
 			<data>
-			M8IDqvfcKUhqPPcGl+VBvFP7+zlmauPqR1nujCgcSi8=
+			4aqaYuHkqHOM8MkW3MndDdDk4dhv9cs3bVKLsIHJzHQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -105,11 +105,6 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
-		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -154,11 +149,6 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
-		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

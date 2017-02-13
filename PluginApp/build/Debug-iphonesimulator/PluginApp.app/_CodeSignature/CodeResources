@@ -5,32 +5,62 @@
 	<key>files</key>
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
-		<data>
-		fefv1B4DLGfwpYiOzNVr9Htfc1o=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			2xwkt/z2frX9Db76CWPmkAgzYHw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
-		<data>
-		n2t8gsDpfE6XkhG31p7IQJRxTxU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			n2t8gsDpfE6XkhG31p7IQJRxTxU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<data>
-		ou7kexcoChFWBHp6IrI8b/WH1Pk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			8WgzxMvx04ubwWL4TFGnVKiZYyw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<data>
-		N6S1hg+O4JfW2V+6ONab7aqPLBw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			87ttVdbKAP37r3X0tPmRKVwAHJ4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
-		<data>
-		MDrKFvFWroTb0+KEbQShBcoBvo4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			MDrKFvFWroTb0+KEbQShBcoBvo4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
-		<data>
-		qcA0/VdSY0M24I+Qh4g/VZvETVo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ZmsH1oje3XcOkwqL72IkMcra7s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Info.plist</key>
 		<data>
-		hbDMxRZde0CgTMIAR1hbx+4ogyc=
+		o5TCzRE1r4a+aAt3MZHwuwc/Amg=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -51,12 +81,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fefv1B4DLGfwpYiOzNVr9Htfc1o=
+			2xwkt/z2frX9Db76CWPmkAgzYHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			iijQiTfuWQwzIHU/rp9uN3wGIihE3pH92cZx/SeB12o=
+			RYd5WxoHmWnCCdqpjyScYPA/izS22Z0B91yv167ICNA=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<dict>
@@ -68,28 +100,34 @@
 			<data>
 			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ou7kexcoChFWBHp6IrI8b/WH1Pk=
+			8WgzxMvx04ubwWL4TFGnVKiZYyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			m4MiaeXtWSV5jr7K7NFrRMfnLo/SvmJnpSiPq+5JUaM=
+			8ib6OYZZuKv/BHrQzClq8sjW0WIre5oiHBoRFCDZ7v4=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N6S1hg+O4JfW2V+6ONab7aqPLBw=
+			87ttVdbKAP37r3X0tPmRKVwAHJ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			m4T/A4jJzJilNC4eEHpTfnIw7HLkjFwU2wNLLXLV62E=
+			UQmF/c0khjQXbb27FNF45usAwMXy+VIwiIF4EWVRZr4=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
@@ -101,17 +139,21 @@
 			<data>
 			PpvapAjR62rl6Ym4E6hkTgpKmBICxTaQXeUqcpHmmqQ=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qcA0/VdSY0M24I+Qh4g/VZvETVo=
+			7ZmsH1oje3XcOkwqL72IkMcra7s=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUkxYA6wbZkDjDa4KiU09uRMPvlWGAxwhipZBlJKArU=
+			E80vdavKffiBb1+hWGzlIq1fJ9Ttb7T8s4nrD86Q+48=
 			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>PluginA.bundle/Adventure@2x.png</key>
 		<dict>
@@ -153,11 +195,6 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
-		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -203,11 +240,6 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
-		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

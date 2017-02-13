@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/xxw/Documents/workspace/PlugIns/PluginB/PluginB/PBPluginB.m \
-  /Users/xxw/Documents/workspace/PlugIns/PluginB/PluginB/PBPluginB.h
+  /Users/joeswi/Documents/Workspace/PlugIns/PluginB/PluginB/PBPluginB.m \
+  /Users/joeswi/Documents/Workspace/PlugIns/PluginB/PluginB/PBPluginB.h

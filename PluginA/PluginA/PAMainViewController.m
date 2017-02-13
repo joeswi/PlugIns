@@ -26,7 +26,7 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     [imageView setBackgroundColor:[UIColor redColor]];
     imageView.image = [UIImage imageNamed:@"Adventure"
-                                 inBundle:[PluginAService bundle]
+                                 inBundle:[[PluginAService shareInstance] bundle]
             compatibleWithTraitCollection:nil];
     [self.view addSubview:imageView];
 }
