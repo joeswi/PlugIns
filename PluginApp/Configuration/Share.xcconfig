@@ -6,7 +6,6 @@
 //  Copyright © 2017年 xxw. All rights reserved.
 //
 
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginAProtocol/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginA/build/$(CONFIGURATION)-$(PLATFORM_NAME)"  "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginB/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginCDef/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginCImp/build/$(CONFIGURATION)-$(PLATFORM_NAME)"
 
-
-//OTHER_LDFLAGS = $(inherited) -all_load ${PROJECT_DIR}/Plugins/PluginA.framework/PluginA
+OTHER_LDFLAGS = $(inherited) -framework PluginAProtocol -framework PluginA -framework PluginLoader -framework PluginB -framework PluginCDef -framework PluginCImp
