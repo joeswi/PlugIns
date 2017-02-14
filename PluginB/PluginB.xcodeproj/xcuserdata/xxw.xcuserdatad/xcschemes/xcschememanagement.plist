@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>PluginBImp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>AD24E6AC1E4DD52900489B55</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD24E7431E52B43400489B55</key>
 		<dict>
 			<key>primary</key>
 			<true/>

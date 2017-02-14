@@ -8,4 +8,4 @@
 
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginAProtocol/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginA/build/$(CONFIGURATION)-$(PLATFORM_NAME)"  "${PROJECT_DIR}/../PluginLoader/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginB/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginCDef/build/$(CONFIGURATION)-$(PLATFORM_NAME)" "${PROJECT_DIR}/../PluginCImp/build/$(CONFIGURATION)-$(PLATFORM_NAME)"
 
-OTHER_LDFLAGS = $(inherited) -framework PluginAProtocol -framework PluginA -framework PluginLoader -framework PluginB -framework PluginCDef -framework PluginCImp
+OTHER_LDFLAGS = $(inherited) -framework PluginAProtocol -framework PluginA -framework PluginLoader -framework PluginB -framework PluginBImp -framework PluginCDef -framework PluginCImp

@@ -24,7 +24,12 @@
     [super viewDidLoad];
     
     
-    PBPluginB *b = [[PBPluginB alloc] init];
+    id<PLPluginProtocol> plugin = [[PLPluginLoader defaultLoader] findPlugin:@"PluginB"];
+    if ([plugin conformsToProtocol:@protocol(PluginBProtocol)])
+    {
+        id<PluginBProtocol> pluginB = (id<PluginBProtocol>)plugin;
+        [pluginB sayHello];
+    }
     
     // PluginAService *s = [[PluginAService alloc] init]; //必须要使用，才能加载
     id<PLPluginProtocol> loader = [[PLPluginLoader defaultLoader] findPlugin:@"PluginA"];

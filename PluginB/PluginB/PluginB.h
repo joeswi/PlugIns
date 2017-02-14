@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char PluginBVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PluginB/PublicHeader.h>
 
-#import <PluginB/PBPluginB.h>
+#import <PluginB/PluginBProtocol.h>

@@ -11,6 +11,9 @@
 #import <PluginCImp/PluginCImp.h>
 #import <PluginA/PluginA.h>
 
+#import <PluginB/PluginB.h>
+#import <PluginBImp/PluginBImp.h>
+
 @interface AppDelegate ()
 
 @end
@@ -22,7 +25,7 @@
     // Override point for customization after application launch.
     NSLog(@"---------- did finish launch ----------");
     
-    [[PLPluginLoader defaultLoader] loadPlugins:@[PluginCImp.class, PluginAService.class]];
+    [[PLPluginLoader defaultLoader] loadPlugins:@[PluginCImp.class, PluginAService.class, PBPluginB.class]];
     
     return YES;
 }

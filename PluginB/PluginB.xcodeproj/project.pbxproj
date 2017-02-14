@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AD24E6B21E4DD52900489B55 /* PluginB.h in Headers */ = {isa = PBXBuildFile; fileRef = AD24E6B01E4DD52900489B55 /* PluginB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD24E6BA1E4DD57600489B55 /* PBPluginB.h in Headers */ = {isa = PBXBuildFile; fileRef = AD24E6B81E4DD57600489B55 /* PBPluginB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD24E6BB1E4DD57600489B55 /* PBPluginB.m in Sources */ = {isa = PBXBuildFile; fileRef = AD24E6B91E4DD57600489B55 /* PBPluginB.m */; };
+		AD24E74D1E52B4AE00489B55 /* PluginBProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AD24E74C1E52B4AE00489B55 /* PluginBProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD24E7501E52B4F000489B55 /* Share.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD24E74F1E52B4F000489B55 /* Share.xcconfig */; };
+		AD24E7531E52B53C00489B55 /* PluginB.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD24E7511E52B53C00489B55 /* PluginB.xcconfig */; };
+		AD24E7541E52B53C00489B55 /* PluginBImp.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD24E7521E52B53C00489B55 /* PluginBImp.xcconfig */; };
+		AD24E7551E52B5E300489B55 /* PBPluginB.h in Headers */ = {isa = PBXBuildFile; fileRef = AD24E73C1E52B3BD00489B55 /* PBPluginB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD24E7561E52B5E300489B55 /* PBPluginB.m in Sources */ = {isa = PBXBuildFile; fileRef = AD24E73A1E52B3BD00489B55 /* PBPluginB.m */; };
+		AD24E7581E52D22F00489B55 /* PluginBImp.h in Headers */ = {isa = PBXBuildFile; fileRef = AD24E7571E52D22F00489B55 /* PluginBImp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD24E6AD1E4DD52900489B55 /* PluginB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PluginB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD24E6B01E4DD52900489B55 /* PluginB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginB.h; sourceTree = "<group>"; };
 		AD24E6B11E4DD52900489B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD24E6B81E4DD57600489B55 /* PBPluginB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPluginB.h; sourceTree = "<group>"; };
-		AD24E6B91E4DD57600489B55 /* PBPluginB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPluginB.m; sourceTree = "<group>"; };
+		AD24E73A1E52B3BD00489B55 /* PBPluginB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBPluginB.m; sourceTree = "<group>"; };
+		AD24E73C1E52B3BD00489B55 /* PBPluginB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBPluginB.h; sourceTree = "<group>"; };
+		AD24E7441E52B43400489B55 /* PluginBImp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PluginBImp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD24E74C1E52B4AE00489B55 /* PluginBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginBProtocol.h; sourceTree = "<group>"; };
+		AD24E74F1E52B4F000489B55 /* Share.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Share.xcconfig; sourceTree = "<group>"; };
+		AD24E7511E52B53C00489B55 /* PluginB.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PluginB.xcconfig; sourceTree = "<group>"; };
+		AD24E7521E52B53C00489B55 /* PluginBImp.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PluginBImp.xcconfig; sourceTree = "<group>"; };
+		AD24E7571E52D22F00489B55 /* PluginBImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginBImp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AD24E6A91E4DD52900489B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD24E7401E52B43400489B55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,7 +52,9 @@
 		AD24E6A31E4DD52900489B55 = {
 			isa = PBXGroup;
 			children = (
+				AD24E74E1E52B4F000489B55 /* Configuration */,
 				AD24E6AF1E4DD52900489B55 /* PluginB */,
+				AD24E7391E52B3BD00489B55 /* PluginBImp */,
 				AD24E6AE1E4DD52900489B55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				AD24E6AD1E4DD52900489B55 /* PluginB.framework */,
+				AD24E7441E52B43400489B55 /* PluginBImp.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,11 +72,38 @@
 			isa = PBXGroup;
 			children = (
 				AD24E6B01E4DD52900489B55 /* PluginB.h */,
+				AD24E74C1E52B4AE00489B55 /* PluginBProtocol.h */,
 				AD24E6B11E4DD52900489B55 /* Info.plist */,
-				AD24E6B81E4DD57600489B55 /* PBPluginB.h */,
-				AD24E6B91E4DD57600489B55 /* PBPluginB.m */,
 			);
 			path = PluginB;
+			sourceTree = "<group>";
+		};
+		AD24E7391E52B3BD00489B55 /* PluginBImp */ = {
+			isa = PBXGroup;
+			children = (
+				AD24E73B1E52B3BD00489B55 /* Public */,
+				AD24E73A1E52B3BD00489B55 /* PBPluginB.m */,
+			);
+			path = PluginBImp;
+			sourceTree = "<group>";
+		};
+		AD24E73B1E52B3BD00489B55 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				AD24E7571E52D22F00489B55 /* PluginBImp.h */,
+				AD24E73C1E52B3BD00489B55 /* PBPluginB.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		AD24E74E1E52B4F000489B55 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				AD24E74F1E52B4F000489B55 /* Share.xcconfig */,
+				AD24E7511E52B53C00489B55 /* PluginB.xcconfig */,
+				AD24E7521E52B53C00489B55 /* PluginBImp.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,8 +113,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD24E6BA1E4DD57600489B55 /* PBPluginB.h in Headers */,
 				AD24E6B21E4DD52900489B55 /* PluginB.h in Headers */,
+				AD24E74D1E52B4AE00489B55 /* PluginBProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD24E7411E52B43400489B55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD24E7551E52B5E300489B55 /* PBPluginB.h in Headers */,
+				AD24E7581E52D22F00489B55 /* PluginBImp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +148,24 @@
 			productReference = AD24E6AD1E4DD52900489B55 /* PluginB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		AD24E7431E52B43400489B55 /* PluginBImp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD24E7491E52B43500489B55 /* Build configuration list for PBXNativeTarget "PluginBImp" */;
+			buildPhases = (
+				AD24E73F1E52B43400489B55 /* Sources */,
+				AD24E7401E52B43400489B55 /* Frameworks */,
+				AD24E7411E52B43400489B55 /* Headers */,
+				AD24E7421E52B43400489B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginBImp;
+			productName = PluginBImp;
+			productReference = AD24E7441E52B43400489B55 /* PluginBImp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +177,10 @@
 				ORGANIZATIONNAME = xxw;
 				TargetAttributes = {
 					AD24E6AC1E4DD52900489B55 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AD24E7431E52B43400489B55 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -120,12 +199,23 @@
 			projectRoot = "";
 			targets = (
 				AD24E6AC1E4DD52900489B55 /* PluginB */,
+				AD24E7431E52B43400489B55 /* PluginBImp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AD24E6AB1E4DD52900489B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD24E7531E52B53C00489B55 /* PluginB.xcconfig in Resources */,
+				AD24E7541E52B53C00489B55 /* PluginBImp.xcconfig in Resources */,
+				AD24E7501E52B4F000489B55 /* Share.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD24E7421E52B43400489B55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,7 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD24E6BB1E4DD57600489B55 /* PBPluginB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD24E73F1E52B43400489B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD24E7561E52B5E300489B55 /* PBPluginB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +341,7 @@
 		};
 		AD24E6B61E4DD52900489B55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD24E7511E52B53C00489B55 /* PluginB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -262,6 +360,7 @@
 		};
 		AD24E6B71E4DD52900489B55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD24E7511E52B53C00489B55 /* PluginB.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -273,6 +372,46 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xxw.plugins.PluginB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AD24E74A1E52B43500489B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD24E7521E52B53C00489B55 /* PluginBImp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PluginBImp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxw.plugins.PluginBImp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD24E74B1E52B43500489B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD24E7521E52B53C00489B55 /* PluginBImp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PluginBImp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxw.plugins.PluginBImp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -295,6 +434,15 @@
 			buildConfigurations = (
 				AD24E6B61E4DD52900489B55 /* Debug */,
 				AD24E6B71E4DD52900489B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD24E7491E52B43500489B55 /* Build configuration list for PBXNativeTarget "PluginBImp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD24E74A1E52B43500489B55 /* Debug */,
+				AD24E74B1E52B43500489B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
